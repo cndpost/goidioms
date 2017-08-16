@@ -12,8 +12,8 @@ import (
 )
 
 func main() {
-  var line string
-  var n int
+//  var line string
+//  var n int
 
   if (len(os.Args) <= 2) {
      fmt.Println("usgae: keywordfiles keyword  file1 file2 ... \n")
@@ -60,20 +60,4 @@ func main() {
 
   
   return
-
-  counts := make(map[string] int)
-  input  := bufio.NewScanner(os.Stdin)
-  for input.Scan() {
-     counts[input.Text()]++
-     if (len(input.Text()) <=1) {
-      break
-     }
-  }
-  for line, n = range counts {
-          if n > 1 {
-		fmt.Printf("%d   %s\n", n, line)
-          } else {
-		fmt.Printf("no duplicated lines: %s\n", line)
-         }
-  }
 }
