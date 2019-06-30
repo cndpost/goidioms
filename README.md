@@ -10,3 +10,5 @@ cmdrepeater - repeat what commander entered, with a Yes Sir or Sure Yes
 dupline     - count how many repeats of each words you entered until you enter-enter
 
 keywordInfiles - search the keyword in the files your supplied. print their line number and text if exist
+
+tailcommand  - a GOLANG implementation of the tailcommand, followed the C++ implementation at my <a href=https://github.com/cndpost/cppidioms>cppidioms </a>
