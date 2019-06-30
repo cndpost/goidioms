@@ -1,3 +1,7 @@
+//This is a GOLANG reimplementation of my tailcommand project originally written in C++ in my repo called cppidioms
+//This implementation has taken code from the double line example. so we have a map calclation which is not needed, but
+//we kept here for easy comparison with the double line example
+
 package main
 import (
 	"fmt"
